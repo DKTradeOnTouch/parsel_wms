@@ -1,0 +1,144 @@
+name: parsel_flutter
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.1.8+118
+environment:
+  sdk: ">=3.2.4 <4.0.0"
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  auto_size_text: ^3.0.0
+  #background_location: ^0.8.1
+  baseflow_plugin_template: ^2.2.0
+  change_app_package_name: ^1.3.0
+  cupertino_icons: ^1.0.8
+  custom_marker: ^1.0.0
+  dio: ^5.6.0
+  dropdown_button2: ^2.3.9
+  file_picker: 
+  firebase_core: 
+  firebase_database: 
+  flutter_launcher_icons: 
+  flutter_svg: 
+  fluttertoast: ^8.2.8
+  geolocator: 
+  get: ^4.6.6
+  google_maps_flutter: ^2.9.0
+  hexcolor: ^3.0.1
+  http: ^1.2.2
+  http_parser: ^4.0.2
+  image: null
+  image_cropper: ^8.0.2
+  image_picker: ^1.1.2
+  intl:
+  label_marker: ^1.0.1
+  number_inc_dec: ^0.8.0
+  path_provider: ^2.1.4
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  signature: 
+  syncfusion_flutter_datepicker: ^26.2.11
+  permission_handler: ^11.3.1
+  dartx: ^1.2.0
+  url_launcher: ^6.3.0
+  upgrader: ^10.3.0
+  connectivity_plus: ^6.0.5
+  sqflite: ^2.3.3+1
+  event_bus_plus: ^0.6.2
+  flutter_screenutil: ^5.9.3
+  page_transition: ^2.1.0
+  # persistent_bottom_nav_bar_v2: ^5.2.3
+  lottie: ^3.1.2
+  either_dart: ^1.0.0
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  equatable: ^2.0.5
+  # barcode_scanner: ^5.1.0
+  
+  mobile_scanner: ^3.4.1
+  easy_localization: ^3.0.7
+  jwt_decoder: ^2.0.1
+  mixpanel_flutter: ^2.3.1
+  widget_zoom: ^0.0.3
+  scroll_to_index: ^3.0.1
+  cunning_document_scanner: ^1.2.3
+  in_app_update: ^4.2.2
+  flutter_image_compress: ^2.2.0
+  syncfusion_flutter_pdf:
+  syncfusion_pdfviewer_platform_interface:
+  syncfusion_flutter_signaturepad:
+
+  flutter:
+    sdk: flutter
+    
+
+dev_dependencies:
+  flutter_lints: ^1.0.4
+  flutter_test:
+    sdk: flutter
+  lint: ^1.8.2
+  freezed: ^2.4.1
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/logo.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/svg/
+    - assets/png/
+    - assets/lottie/
+    - assets/translations/
+    - assets/
+  #   - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: MavenPro
+      fonts:
+        - asset: assets/fonts/maven_pro/MavenPro_Black.ttf
+        - asset: assets/fonts/maven_pro/MavenPro_Medium.ttf
+        - asset: assets/fonts/maven_pro/MavenPro_Regular.ttf
+        - asset: assets/fonts/maven_pro/MavenPro_SemiBold.ttf
+        - asset: assets/fonts/maven_pro/MavenPro-Medium.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/roboto/Roboto-Thin.ttf
+
+    - family: Inria Sans
+      fonts:
+        - asset: assets/fonts/inria_sans/InriaSans-Bold.ttf
+        - asset: assets/fonts/inria_sans/InriaSans-Italic.ttf
+        - asset: assets/fonts/inria_sans/InriaSans-Light.ttf
+        - asset: assets/fonts/inria_sans/InriaSans-Regular.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

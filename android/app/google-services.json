@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "615991818920",
+    "firebase_url": "https://parsel-pre-mvp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "parsel-pre-mvp",
+    "storage_bucket": "parsel-pre-mvp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615991818920:android:813c3d78f12e81a410209d",
+        "android_client_info": {
+          "package_name": "com.parsel.parselexchange.wms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615991818920-43fr4irofa7078o29ir8ajim6jk09ove.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALY-7KDtmD801FgRFkUBdC2hjf7fbMYbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615991818920-43fr4irofa7078o29ir8ajim6jk09ove.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

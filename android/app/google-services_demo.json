@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1087898969006",
+    "firebase_url": "https://parsel-1e3a0-default-rtdb.firebaseio.com",
+    "project_id": "parsel-1e3a0",
+    "storage_bucket": "parsel-1e3a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087898969006:android:a6ad084c4b14e1aaa5de3f",
+        "android_client_info": {
+          "package_name": "com.parsel.parselexchange.wms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087898969006-ukj9j85j4c7bo6mbjoh0jo1qo9kubrvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLohU628eB6_rlfHCcCTX0uxbQZ30EGMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087898969006-ukj9j85j4c7bo6mbjoh0jo1qo9kubrvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
